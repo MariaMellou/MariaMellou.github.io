@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,10 +14,12 @@
           <h1>Maria Mellou</h1>
           <p>
             I’m a junior web developer transitioning from neuroscience to tech,
-            building projects in HTML/CSS, JavaScript, Python, and C. I enjoy
-            creating clean, functional solutions and continuously expanding my
-            skills. Passionate and open to work, I thrive in collaborative
-            environments and love tackling new challenges.
+            with hands-on experience building projects in HTML, CSS, JavaScript,
+            ASP.NET Core MVC, C#, Python, and SQL. I enjoy creating clean,
+            functional solutions, strengthening my skills through practical
+            development, and continuously learning modern web technologies.
+            Passionate and open to work, I thrive in collaborative environments
+            and enjoy tackling new challenges.
           </p>
           <ul class="icons">
             <li>
@@ -66,6 +68,43 @@
       <main>
         <h2>Projects</h2>
         <div class="projects">
+          <article class="project">
+            <div class="text">
+              <h3>Task Management App</h3>
+              <p>
+                I developed a task management web application using ASP.NET Core
+                MVC (.NET 8) and Bootstrap 5, focused on implementing clean CRUD
+                functionality in a structured MVC architecture. The application
+                allows users to create, view, edit, and delete tasks through a
+                responsive interface, with each task containing a title,
+                description, status, due date, and created-by field. I
+                implemented server-side validation using Data Annotations,
+                proper error handling with 404 responses for missing tasks, and
+                status visualization with Bootstrap badges. To match the project
+                requirements, I used in-memory storage instead of a database and
+                separated responsibilities through Models, Services,
+                Controllers, and Views, while also applying Dependency Injection
+                for the service layer. This project helped me practice ASP.NET
+                Core MVC, routing, model binding, validation, service-layer
+                design, dependency injection, Razor views, and building a
+                complete responsive web application from scratch.
+                <a
+                  href="https://github.com/MariaMellou/TaskManagementApp"
+                  target="_blank"
+                  >Explore the code!</a
+                >
+              </p>
+              <ul>
+                <li>ASP.NET Core MVC</li>
+                <li>.NET 8</li>
+                <li>Bootstrap 5</li>
+                <li>C#</li>
+                <li>Dependency Injection</li>
+                <li>Razor Views</li>
+              </ul>
+            </div>
+            <img src="./tasks.png" alt="Tasks" class="img-border" />
+          </article>
           <article class="project">
             <div class="text">
               <h3>Word Game</h3>
@@ -164,6 +203,18 @@
       <footer>
         <h2 class="h2-footer">Other Projects</h2>
         <div class="footer-text">
+          <div class="footer-text-box">
+            <h3>SQL:</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/MariaMellou/sql-data-warehouse-project"
+                  target="_blank"
+                  >Data Warehouse Project</a
+                >
+              </li>
+            </ul>
+          </div>
           <div class="footer-text-box">
             <h3>C programming:</h3>
             <ul>
